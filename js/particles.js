@@ -30,7 +30,7 @@ function setup() {
 
   for(var i = 0; i<50; i++) {
   var ang = random(360);
-  var image=int(random(1,8));
+  var image=int(random(1,3));
   var px = width/2 + 1000 * cos(radians(ang));
   var py = height/2+ 1000 * sin(radians(ang));
   createPart(image, px, py);

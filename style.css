@@ -257,5 +257,15 @@ td {
 	color: white;
 }
 td:hover{
-	ont-style: bold-italic;
+	font-style: bold-italic;
+}
+
+#return-to-top { 
+	display: none;
+    height: 40px; 
+    position: fixed; 
+    bottom:0%;
+    width:100%;
+    padding-top:10px;
+    background: rgba(255, 0, 255, 0.7); 
 }
