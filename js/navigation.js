@@ -8,6 +8,13 @@ $(function(){
 		}, 1500);
 			});
 
+	$("#return-to-top").click ( function() {
+		$('html, body').animate({
+			scrollTop: 0
+		}, 1500);
+		$( "#return-to-top" ).css("display", "none");
+	});
+
 	$(".project_button").click( function(event) {
 		console.log(event);
 		$('html, body').animate({
@@ -39,6 +46,9 @@ $(function(){
 		if(event.currentTarget.id == 'p7') {
 			$( "#project_holder" ).load( "projects/tools/project1.html" );
 		}
+
+		$( "#return-to-top" ).css("display", "block");
+
 
 	});
 });
