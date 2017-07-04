@@ -15,7 +15,7 @@ var characters;
 var particleImage;
 
 var MARGIN = 40;
-
+var box;
 
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
@@ -28,13 +28,15 @@ function setup() {
 
   characters = new Group();
 
-  for(var i = 0; i<50; i++) {
+  for(var i = 0; i<30; i++) {
   var ang = random(360);
-  var image=int(random(1,8));
+  var image=int(random(1,5));
   var px = width/2 + 1000 * cos(radians(ang));
   var py = height/2+ 1000 * sin(radians(ang));
   createPart(image, px, py);
   }
+
+
 }
 
 function draw() {
