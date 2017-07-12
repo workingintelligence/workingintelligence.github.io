@@ -262,12 +262,12 @@ td:hover{
 
 #return-to-top {
 	display: none;
+		color: #F96A23;
     height: 20px;
     position: fixed;
     bottom:0%;
-    width:10%;
+    width:15%;
     padding-top:20px;
 		padding-bottom: 20px;
-		background: rgba(0,0,0,.2);
 
 }
