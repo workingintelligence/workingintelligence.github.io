@@ -38,13 +38,13 @@ $(function(){
 			$( "#project_holder" ).load( "projects/pawn/project1.html" );
 		}
 		if(event.currentTarget.id == 'p5') {
-			$( "#project_holder" ).load( "projects/bounce/project1.html" );
-		}
-		if(event.currentTarget.id == 'p6') {
 			$( "#project_holder" ).load( "projects/judge/project1.html" );
 		}
-		if(event.currentTarget.id == 'p7') {
+		if(event.currentTarget.id == 'p6') {
 			$( "#project_holder" ).load( "projects/tools/project1.html" );
+		}
+		if(event.currentTarget.id == 'p7') {
+			//$( "#project_holder" ).load( "projects/bounce/project1.html" );
 		}
 
 		$( "#return-to-top" ).css("display", "block");
